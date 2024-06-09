@@ -1,0 +1,2 @@
+# lovecal
+js beginner project
