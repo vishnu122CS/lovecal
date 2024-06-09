@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <head>
+            <title>Love Calculator</title>
+            <link rel = "stylesheet" href = "style.css" type="text/css">
+        </head>
+        <div class = "container">
+            <div class="clearfix">
+                <div class="calc col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
+                    <h2>Love Calculator</h2>
+                    <p>Input fullnames of both lovers</p>
+                    <form role="form" class="form-horizontal" id="loveform">
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="names" placeholder="Name Boy" id="nameBoy"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="names" placeholder="Name girl" id="nameGirl"/>
+                        </div>
+                        <div class="form-group"><button class="btn btn-danger pull-right" type="submit">Find Love</button></div>
+                    </form>
+                    <div class="form-group">
+                        <p id="warning" class="text-danger"></p>
+                    </div>
+                    <div class="form-group">
+                        <h1 id="result" class="text-danger"></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

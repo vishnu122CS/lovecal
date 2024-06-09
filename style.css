@@ -1,0 +1,14 @@
+.calc {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding:20px 50px;
+	border:5px solid #AB6C6C;
+	background-color: #BB9898;
+	clear: both;
+}
+#result {
+	color: rgb(202, 58, 58);
+  font-size: 85px;
+  text-shadow: 1px 1px 1px #646161;
+	height: 150px;
+}
